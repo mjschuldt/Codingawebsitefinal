@@ -1,0 +1,217 @@
+@charset "UTF-8";
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+	margin: 0%;
+	background-color: #F2F2F2;
+	color: #184040;
+	font-size: 14pt;
+	padding-bottom: 2%
+
+}
+h1{color: #591B26;
+	 font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+	font-size: 60pt
+}
+	
+h2{color: #8C182D;
+	 font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+	font-size: 27pt; 
+}
+
+h3{  color: #591B26;
+	font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+	padding-top: 1%;
+	font-size: 22pt;
+
+}
+
+h4 {font-family: "Oswald", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+	font-size:17pt;
+	
+
+	
+	
+	
+}
+
+
+h5 {font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+	font-size:17pt;
+	
+}
+
+address{color: #591B26; 
+font-weight:500;
+font-size:16pt;
+font-family: "Lato", sans-serif;
+font-style: normal;
+}
+
+a{
+	color: #8C182D;
+	text-decoration: none
+	
+}
+
+a:hover{
+color:#42B4B4
+}
+
+
+a.button{
+	background-color: #184040;
+	color: #F2F2F2; 
+	font-size: 1em;
+	display: inline-block;
+	padding: 20px;
+	font-family: "Oswald", sans-serif;
+	 font-weight: 400;
+	text-align:center;
+	border-radius: 8px;
+	
+}
+
+a.button:hover{background-color:#591B26}
+
+
+.center{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+	/*padding: 40px*/
+	padding-bottom: 4%;
+	padding-top:2%;
+}
+
+.leftImage{ 
+float: left; 
+	padding-right: 50px; 
+	padding-bottom: 50px;
+}
+
+img{ 
+display: block;
+  margin: auto;
+}
+
+footer{
+	background-color: #D9BEA7;
+	/*position: fixed;*/
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 1%;
+	
+}
+
+header {
+	padding-left: 24%;
+	padding-right: 24%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	background-color: #D9BEA7;
+
+	
+}
+
+section {
+	padding-left: 24%;
+	padding-right: 24%;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+
+
+.sectionBG {
+	background-color: #D9BEA7;
+	/*padding: 5%*/
+	
+}
+
+q{ 
+color: #591B26;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+	padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #591B26;
+}
+
+ul li {
+  float: left;
+	width: 25%;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #8C182D;
+}
+
+ul li a:visited {
+  background-color: #184040;
+}
+
+.visited {
+	background-color: #184040;
+}
+
+nav {
+	position: fixed; 
+	margin: 0; 
+	top: 0; 
+	width: 100%;
+}
+
+.card {
+  border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50%;
+	max-height: 1200px;
+  margin: 50px;
+  text-align: center;
+	float:left}
+.container {
+  padding:0%;
+
+}
+
+.float-right-card {
+    float:left; /* Aligns the card to the right */
+    margin-left: 20px; /* Adds space to the left of the card */
+    width: 200px; /* Example width */
+    /* Add basic card styling */
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
